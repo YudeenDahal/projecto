@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+.navbar {
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+   
+    
+}
+.nav-logo{
+height: 50px;
+width: 100px;
+
+}
+.logo img{
+    height: 50px;
+    width: 100%;
+    
+}
+.logo img {
+border: 2px solid transparent;
+}
+.logo img:hover{
+border: 2px solid white;
+}
+.navaddress {
+    border: 2px solid transparent;
+    width: 70px;
+  
+    
+}
+.navaddress:hover{
+    border: 2px solid white;
+}
+.addicon {
+    display: flex;
+    
+}
+.navsearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.searchbar{
+align-items: center;
+justify-content: center;
+
+  }
+.searchbar__{
+    height: 40px;
+    width: 40px;
+
+}
+.delivery1{
+    width: 70px;
+}

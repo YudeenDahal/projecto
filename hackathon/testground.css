@@ -1,0 +1,70 @@
+.wrapper {
+display: flex;
+background-color: #0E1A2B;
+height: 200px;
+width: 100%;
+
+justify-content: space-evenly;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.wrapper-main{
+    border: 2px solid transparent;
+}
+ .border {
+    border: 2px solid transparent;
+ }
+
+ .border:hover{
+    border: 2px solid white;
+    cursor: pointer;
+
+ }
+
+ .main{
+    border: 2px solid transparent;
+ }
+ .main:hover{
+    border: 2px solid white;
+    cursor: pointer;
+
+ }
+ .border:has(.main:hover) .border{
+    border: 2px solid transparent;
+
+
+ }
+ .main-sub{
+    text-align: center;
+    font-size: 17px;
+ }
+ .main{
+    text-align: center;
+    font-size: 21px;
+    
+ }
+ .learn {
+    font-size: 21px;
+    text-align: center;
+ }
+ .learn-sub{
+    text-align: center;
+    font-size: 17px;
+ }
+ .socials{
+   font-size: 21px;
+ }
+ .socials-sub{
+    text-align: center;
+    font-size: 17px;
+ }
+ .legal{
+    text-align: center;
+    font-size: 21px;
+ }
+ .legal-sub{
+    text-align: center;
+    font-size: 17px;
+ }

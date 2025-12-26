@@ -1,0 +1,30 @@
+#mainScreen{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 300px;
+width: 400px;
+background-color: rgba(245, 245, 245, 0.918);
+box-shadow: rgb(139, 152, 156) 0px 10px 10px ;
+margin-top: 20%;
+margin-left: 30%;
+spaci
+}
+
+button{
+background-color: orange;
+border: none;
+border-radius: 30px;
+height: 50px;
+width: 150px;
+box-shadow: black 0px 5px 5px;
+}
+
+button:hover{
+transform: scale(1.2);
+background-color: aqua ;
+cursor: pointer;
+transition: 0.2s ease-in all;
+
+
+}
